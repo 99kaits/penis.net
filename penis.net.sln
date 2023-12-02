@@ -1,22 +1,17 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "penis.net", "penis.net\penis.net.csproj", "{0BE1C21E-06C8-4CCB-9E97-E1877449ECB6}"
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "penis.net", "penis.net\penis.net.csproj", "{45EB19CF-7EE5-4586-ADF0-A357BDA258FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0BE1C21E-06C8-4CCB-9E97-E1877449ECB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BE1C21E-06C8-4CCB-9E97-E1877449ECB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BE1C21E-06C8-4CCB-9E97-E1877449ECB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BE1C21E-06C8-4CCB-9E97-E1877449ECB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EB19CF-7EE5-4586-ADF0-A357BDA258FE}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{45EB19CF-7EE5-4586-ADF0-A357BDA258FE}.Debug|anycpu.Build.0 = Debug|anycpu
+		{45EB19CF-7EE5-4586-ADF0-A357BDA258FE}.Release|anycpu.ActiveCfg = Release|anycpu
+		{45EB19CF-7EE5-4586-ADF0-A357BDA258FE}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal

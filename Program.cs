@@ -1,4 +1,5 @@
-﻿namespace penis.net;
+﻿using System;
+namespace penis.net;
 
 class Program
 {

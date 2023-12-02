@@ -1,11 +1,19 @@
-﻿namespace penis.net
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace penis.net
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("integer please: ");
-            string length = Console.ReadLine();
+            string length;
+            if (args.Length == 0)
+            {
+                Console.Write("integer please: ");
+                length = Console.ReadLine();
+            }
+            else
+                length = args[0];
             bool isValid = int.TryParse(length, out global::System.Int32 lengthint);
             if (isValid)
             {

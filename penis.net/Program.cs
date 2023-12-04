@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace penis.net
+﻿namespace penis.net
 {
     class Program
     {

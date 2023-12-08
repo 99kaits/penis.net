@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
 
 namespace penis.net
 {
@@ -6,7 +6,7 @@ namespace penis.net
     {
         static void Main(string[] args)
         {
-            string length;
+            string? length;
             if (args.Length == 0)
             {
                 Console.Write("integer please: ");
@@ -14,15 +14,16 @@ namespace penis.net
             }
             else
                 length = args[0];
-            bool isValid = int.TryParse(length, out global::System.Int32 lengthint);
+            bool isValid = int.TryParse(length, out int lengthint);
             if (isValid)
             {
-                Console.Write('B');
+                string peener = "B";
                 for (int i = 0; i < lengthint; i++)
                 {
-                    Console.Write('=');
+                    peener += "=";
                 }
-                Console.WriteLine('D');
+                peener += "D";
+                Console.WriteLine(peener);
             }
             else
             {
